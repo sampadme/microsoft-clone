@@ -1,18 +1,26 @@
 <h1>Microsoft Websote Master Clone</h1>
 <h2>Live View(https://sampadme.github.io/microsoft-clone/)</h2>
 
-### Responsive on large screens
+## Technologies
+* `HTML`
+* `CSS`
+* `SCSS`
+* `JavaScript`
+
+  
+
+## Responsive on large screens
 
 ![image](img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_44_02.png)
 
 
-### Responsive on mobile and tablet screens
+## Responsive on mobile and tablet screens
 
 ![image](img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_48_00.png)
 
 
 
-### Responsive on small mobile screens
+## Responsive on small mobile screens
 
 ![image](img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_49_30.png)
 
