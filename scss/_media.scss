@@ -1,0 +1,657 @@
+/* Media Query Start */
+@media only screen and (max-width:4000px){
+    .logo{
+        &:active{
+            outline: 1px dashed black;
+        }
+    }
+    .jhide{
+        display: none;
+    }
+    .mob_nav{
+        display: none;
+    }
+    .mob_search_c{
+        display: none;
+    }
+    .mobo_logo{
+        display: none;
+    }
+    .mob_search_hid{
+        display: none;
+    }
+    .mob_search_sho{
+        display: none;
+    }
+    .list_hide_on1{
+        display: none;
+    }
+    .list_hide_on2{
+        display: none;
+    }
+    #left_nav_list_hide1{
+        display: none;
+    }
+    #left_nav_list_hide2{
+        display: none;
+    }
+    #left_nav_list_hide3{
+        display: none;
+    }
+    .mobile_navs_show{
+        display: none;
+    }
+    .mobile_navs_hide{
+        display: none;
+    }
+    .all_cata{
+        padding: 10px;
+    }
+    .banner_image{
+        padding-bottom: 31%;
+        background-size: contain;
+    }
+    .last_image_info{
+        top: 238px;
+        left: 133px;
+    }
+
+}
+
+/* Max 1700px Start */
+@media only screen and (max-width:1700px){
+    .countdown_sales {
+        padding: 0 4%;
+    }
+    .business_sales {
+        padding: 0 4%;
+    }
+   .all_contolars{
+    padding: 0 4% ;
+   }
+   .for_business{
+    padding: 0 4%;
+   }
+//    .image_slider_last{
+//     padding: 0 4%;
+//    }
+    .last_image_info2{
+        top: 80px !important;
+        padding: 2rem;
+    }
+    .last_footer{
+        padding: 0 4%;
+        flex-wrap: wrap;
+        
+    }
+}
+/* Max 1700px End */
+
+@media only screen and (max-width:1500px){
+    .banner_info{
+        top: 0px;
+        left: 90px;
+    }
+    .last_image_info2{
+        top: 50px !important;
+        padding: 2rem;
+        
+    }
+    .last_image_info{
+        top: 160px !important;
+        left: 70px !important;
+    }
+}
+
+/* Max 1400px Start */
+@media only screen and (max-width:1400px) {
+    .right_navs li{
+        padding: 0 0;
+    }
+    .head_profile{
+        
+        button{
+            // margin-left: 0px;
+            padding: 10px 5px;
+            margin: 0;
+        }
+        padding: 0 0;
+        p{
+            display: none;
+        }
+    }
+    .head_cart{
+            margin: 0 5px 0 0;
+            padding-left: 0px;
+        button{
+            // margin-left: 0px;
+            padding: 0;
+            padding-right: 10px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .head_search{
+        padding: 10px 8px 10px 5px;
+        margin: 0 0 0 5px;
+        p{
+            display: none;
+        }
+    }
+    @include right_before_hover(btn_ser,0,0);
+    @include right_before_hover(btn_cart,0,0);
+    .banner_info{
+
+    }
+    .banner_image{
+        padding-bottom: 42%;
+    }
+    .countdown_sale{
+        h4{
+            width: 60% !important;
+        }
+    }
+    .contolars_img{
+        height: 450px !important;
+    }
+    .contolor_info{
+        top: 40px !important;
+    }
+    .last_image_info2{
+        top: 50px !important;
+        padding: 1.5rem !important;
+        // width: 50% !important;
+        h2{
+
+            font-size: 1.8125rem !important;
+        }
+
+    }
+    .last_image_info{
+        top: 80px !important;
+        left: 70px !important;
+    }
+}
+/* Max 1400px End */
+
+/* Max 1160px Start */
+@media only screen and (max-width:1160px){
+    .hhide , .ihide{
+        display: none;
+    }
+    .jhide{
+        display: block;
+        button{
+            // padding: 10px;
+            border: none;
+            background-color: transparent;
+        }
+        &:active{
+            background-color: #f2f2f2;
+        }
+        &::after{
+            position: absolute;
+            margin: auto;
+            top: 50%;
+            right: -2px;
+            bottom: 49%;
+            content: "";
+            width: 6px;
+            height: 6px;
+            transform: rotate(45deg);
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            
+        }
+    }
+    .list_hide_on1{
+        display: block;
+    }
+    .all_micro_nav{
+        right: 30px;
+        margin-left: 30px;
+    }
+    .all_cata{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .banner_image{
+        padding-bottom: 42%;
+    }
+    .contolars_img{
+        height: 400px !important;
+    }
+    .contolor_info{
+        top: 0px !important;
+        left: 10px !important;
+    }
+    .last_image_info2{
+        width: 50% !important;
+    }
+}
+/* Max 1160px End */
+
+/* Max 1080px Start */
+@media only screen and (max-width:1080px){
+    .business_sales{
+        flex-wrap: wrap;
+        
+    }
+    .business_sale{
+        flex: 0 50%;
+        margin-right: 0 !important;
+        padding: 0 0.8%;
+        h2{
+            font-size: 1.3rem !important;
+        }
+    }
+    .countdown_sales{
+        flex-wrap: wrap;
+    }
+    .countdown_sale{
+        flex: 0 50%;
+        h2{
+            font-size: 1.3rem !important;
+        }
+    }
+    .contolars_img{
+        background-size: 140% !important;
+        height: 550px !important;
+        width: 98% !important;
+        
+    }
+    .contolor_info{
+        width: 98% !important;
+        background-color: white;
+        // position: absolute;
+        margin-top: 50%;
+        left: 12px !important;
+        top: -30px !important;
+        padding: 5% !important;
+        box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);
+        
+        p{
+            width: 100% !important;
+        }
+    }
+    .for_business{
+        margin-top: 250px !important;
+    }
+    .last_image{
+        margin-bottom: 27%;
+        .last_image_info2{
+            width: 90% !important;
+            top: 315px !important;
+            left: 20px !important;
+        }
+    }
+    .last_image_info{
+        background-color: white;
+        padding: 2rem;
+        width: 90% !important;
+            top: 315px !important;
+            left: 20px !important;
+        h2{
+            color: black !important;
+        }
+        p{
+            color: black !important;
+        }
+        button{
+            padding: 4px;
+            background-color: black !important;
+            cursor: pointer;
+            border: none;
+            p{
+                width: 100%;
+                margin: 0;
+                padding: 6px;
+                border: none;
+                background-color: black !important;
+                color: white !important;
+                font-weight: 600;
+                font-size: 1rem;
+                &:active{
+                    outline: 3px dotted white !important;
+                }
+            }
+            
+        }
+    }
+    .footer_list{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(271px, 1fr));
+        ul{
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+    }
+}
+
+/* Max 1080px End */
+
+/* Max 1024px Start */
+@media only screen and (max-width:1024px){
+    header {
+        padding: 0 2%;
+    }
+    .banner{
+        padding-bottom: 30%;
+    }
+    .banner_image{
+        background-position-x:right;
+        background-size: cover;
+        padding-bottom: 55%;
+        .banner_info{
+            width: 95%;
+            background-color: white;
+            // position: absolute;
+            left: 25px;
+            margin-top: 50%;
+            h1{
+                font-size: 1.5rem;
+            }
+
+        }
+    }
+    .contolars_img{
+        background-size: 140% !important;
+    }
+    .for_business{
+        margin-top: 225px !important;
+    }
+}
+/* Max 1024px End */
+
+/* Max 960px Start */
+@media only screen and (max-width:960px){
+    .ghide{
+        display: none;
+    }
+    #left_nav_list_hide3{
+        display: block;
+    }
+    .banner_info h1{
+        width: 100%;
+    }
+    .banner{
+        padding-bottom: 32%;
+    }
+    .for_business{
+        margin-top: 170px !important;
+    }
+    .left_footer{
+        margin-bottom: 20px;
+    }
+}
+/* Max 960px End */
+
+/* Max 900px Start */
+@media only screen and (max-width:900px){
+    .fhide{
+        display: none;
+    }
+    #left_nav_list_hide2{
+        display: block;
+    }
+    .for_business{
+        margin-top: 170px !important;
+    }
+}
+/* Max 900px End */
+
+/* Max 840px Start */
+@media only screen and (max-width:840px){
+    .ehide{
+        display: none;
+    }
+    header {
+        padding: 0 1%;
+    }
+    #left_nav_list_hide1{
+        display: block;
+    }
+    .offer_noti{
+        height: 70px;
+        padding: 5px;
+    }
+    .contolars_img{
+        background-color: transparent !important;
+    }
+    .contolor_info{
+        box-shadow: none;
+        width: 100%;
+        top: 0px !important;
+        h1{
+            font-size: 1.5rem !important;
+        }
+    }
+    .last_image{
+        margin-bottom: 35%;
+        .last_image_info2{
+            width: 90% !important;
+            top: 300px !important;
+            left: 20px !important;
+        }
+    }
+    .footer_list{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(207px, 1fr));
+        ul{
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+    }
+
+}
+/* Max 840px End */
+
+/* Max 768px Start */
+@media only screen and (max-width:768px){
+    .left_nav_list, .all_micro{
+        display: none;
+    }
+    .mob_nav{
+        display: block;
+    }
+    .mob_search_c{
+        display: flex;
+    }
+    .main_head{
+        // justify-content: center;
+    }
+    .header_left{
+        // justify-content: left;
+    }
+    .logo{
+        display: none;
+    }
+    .mobo_logo{
+        display: flex;
+        align-items: center;
+        &:active{
+            outline: 1px dashed black;
+        }
+        img{
+            width: 108px;
+            
+        }
+    }
+    .mob_search_hid{
+        display: none;
+    }
+    .mob_search_sho{
+        display: block;
+    }
+    .right_nav_list_show{
+        display: block;
+    }
+    .right_nav_list_hide{
+        display: none;
+    }
+    .list_hide_on1{
+        display: none;
+    }
+    .list_hide_on2{
+        display: none;
+    }
+    .mobile_navs_show{
+        display: block;
+    }
+    .all_microsoft_sh{
+        display: none;
+    }
+    .all_microsoft_hi{
+        display: none;
+    }
+    .banner{
+        padding-bottom: 280px;
+        .banner_info{
+            left: 10px !important;
+        }
+    }
+    .business_sales .business_sale a .countdown_sale_p22::after {
+        display: flex;
+        content: "";
+        
+        top: -13px;
+        right: 150px;
+        
+    }
+    .for_business{
+        margin-top: 80px !important;
+    }
+    .last_image{
+        margin-bottom: 51%;
+        .last_image_info2{
+            width: 90% !important;
+            top: 290px !important;
+            left: 20px !important;
+        }
+    }
+    .last_image_info{
+        width: 90% !important;
+        top: 240px !important;
+        left: 20px !important;
+    }
+}
+
+/* Max 768px End */
+
+/* Max 640px Start */
+@media only screen and (max-width:640px){
+    .last_image{
+        margin-bottom: 70%;
+        .last_image_info2{
+            width: 90% !important;
+            top: 290px !important;
+            left: 20px !important;
+        }
+    }
+    .last_image_info{
+        width: 90% !important;
+        top: 185px !important;
+        left: 20px !important;
+    }
+}
+/* Max 640px End */
+
+/* Max 540px Start */
+@media only screen and (max-width:540px){
+    .countdown_sale{
+        flex: 0 100%;
+        h4{
+            width: 40% !important;
+        }
+    }
+    .business_sale{
+        flex: 0 100%;
+        h4{
+            width: 40% !important;
+        }
+    }
+    .contolars_img{
+        height: 550px;
+    }
+    .for_business{
+        margin-top: 0px !important;
+    }
+    .last_image{
+        margin-bottom: 350px;
+        .last_image_info2{
+            width: 90% !important;
+            top: 190px !important;
+            left: 20px !important;
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .last_image_info{
+        width: 90% !important;
+        top: 153px !important;
+        left: 20px !important;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+}
+/* Max 540px End */
+
+/* Max 492px Start */
+@media only screen and (max-width:430px){
+    .banner{
+        padding-bottom: 335px;
+        .banner_info{
+            left: 5px !important;
+        }
+    }
+    .countdown_sale{
+        h4{
+            width: 50% !important;
+        }
+    }
+    .last_image{
+        margin-bottom: 400px;
+        .last_image_info2{
+            width: 90% !important;
+            top: 140px !important;
+            left: 20px !important;
+        }
+    }
+    
+}
+/* Max 492px end */
+
+/* Max 250px Start */
+@media only screen and (max-width:320px){
+    .banner{
+        padding-bottom: 350px !important;
+        .banner_info{
+            left: 5px !important;
+        }
+        .banner_slid_btn{
+            margin-top: 0;
+        }
+    }
+    .countdown_sale{
+        h4{
+            width: 70% !important;
+        }
+    }
+    .last_image{
+        margin-bottom: 550px;
+        .last_image_info2{
+            width: 90% !important;
+            top: 140px !important;
+            left: 20px !important;
+        }
+    }
+}
+/* Max 350px end */
+
+
+
+/* Media Query End */

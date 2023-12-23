@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+</head>
+<body>
+    <div class="total_header">
+        <header>
+            <div class="main_head">
+                <div class="header_left">
+                    <div id="mob_nav_hide" class="mob_nav">
+                        <button onclick="mob_nav()">
+                            <ul id="click_nav" >
+                                <li class="mob_nav_li mob_nav_li_hide1"></li>
+                                <li class="mob_nav_li mob_nav_li_hide2"></li>
+                                <li class="mob_nav_li mob_nav_li_hide3"></li>
+                            </ul>
+                        </button>
+                    </div>
+                    <div id="mob_search" class="mob_search">
+                        <button class="mob_search_c" onclick="mob_sea_btn_show()"><img src="/img/search.png" alt="">
+                        </button>
+                    </div>
+                    <div class="logo">
+                        <a href="/"><img src="/img/logo.png" alt="Microsoft Logo"></a>
+                    </div>
+                    <ul class="left_navs">
+                        <li class="left_nav_list ahide"><a href="#">Microsoft 365</a></li>
+                        <li class="left_nav_list bhide"><a href="#">Teams</a></li>
+                        <li class="left_nav_list chide"><a href="#">Copilot</a></li>
+                        <li class="left_nav_list dhide"><a href="#">Windows</a></li>
+                        <li class="left_nav_list ehide"><a href="#">Surface</a></li>
+                        <li class="left_nav_list fhide"><a href="#">Xbox</a></li>
+                        <li class="left_nav_list ghide"><a href="#">Deals</a></li>
+                        <li class="left_nav_list hhide"><p class="i"><a href="#">Small Business</a></p></li>
+                        <li class="left_nav_list ihide"><p class="i"><a href="#">Support</a></p></li>
+                        <li class="left_nav_list jhide" onclick="nav_hide_list()"><button><p class="p_hid p_show"><a href="#">More</a></p></button></li>
+                    </ul>
+                    <div class="list_hide_on list_hide_on2">
+                        <ul class="left_nav_list_hides">
+                            <li class="left_nav_list_hide " id="left_nav_list_hide1">Surface</li>
+                            <li class="left_nav_list_hide" id="left_nav_list_hide2">Xbox</li>
+                            <li class="left_nav_list_hide "  id="left_nav_list_hide3">Deals</li>
+                            <li class="left_nav_list_hide">Small Business</li>
+                            <li class="left_nav_list_hide">Support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobo_logo">
+                    <a href="/"><img src="/img/logo.png" alt="Microsoft Logo"></a>
+                </div>
+                <div class="header_right">
+                    <ul class="right_navs">
+                        <li onclick="all_microsoft()" class="right_nav_list all_micro" id="search"><div class="all_mic">
+                            <button class="arrow btn_all">All Microsoft</button>
+                        </div></li>
+                        <li class="right_nav_list all_micro" ><div class="head_search">
+                            <button class="btn_ser" onclick="sea_btn_show()"><p>Search</p> <img src="/img/search.png" alt=""></button>
+                        </div></li>
+                        <li id="mob_right_cart" class="right_nav_list" ><div class="head_cart">
+                            <button class="btn_cart"><p>Cart </p><img src="/img/cart.png" alt=""></button>
+                        </div></li>
+                        <li id="mob_right_sign" class="right_nav_list" ><div class="head_profile">
+                            <button><p>Sign in </p><img src="/img/account.png" alt=""></button>
+                        </div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_ search_hid"><input type="text" placeholder="Search Microsoft.com"><button onclick="hid_btn_show()">Cancel</button></div>
+            <div id="mob_search_btn" class="mob_search_hid">
+            <div class="mob_search_inp">
+                <button onclick="mob_hid_btn_show()" class="nav_arro_btn">
+                <ul>
+                    <li class="li_arro liarro1"></li>
+                    <li class="li_arro liarro2"></li>
+                    <li class="li_arro liarro3"></li>
+                </ul>
+                </button><input type="text" placeholder="Search Microsoft.com">
+            </div></div>
+        </header>
+        <div id="mobile_navs" class="mobile_navs_hide">
+            <div class="mobile_navs">
+                <ul class="mobile_nav_ul">
+                    <li class="mob_nav_li1"><p>Microsoft 365</p></li>
+                    <li class="mob_nav_li1"><p>Teams</p></li>
+                    <li class="mob_nav_li1"><p>Copilot</p></li>
+                    <li class="mob_nav_li1"><p>Windows</p></li>
+                    <li class="mob_nav_li1"><p>Surface</p></li>
+                    <li class="mob_nav_li1"><p>Xbox</p></li>
+                    <li class="mob_nav_li1"><p>Deals</p></li>
+                    <li class="mob_nav_li1"><p>Small Business</p</li>
+                    <li class="mob_nav_li1"><p>Support</p></li>
+                    <li class="mob_nav_li1 mob_nav_li1_after" onclick="mob_nav_li2()"><p>Software</p>
+                        <ul class="mobi_nav_ul2  mobi_nav_ul2_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Windows Apps</p></li>
+                            <li class="mob_nav_li1"><p>AI</p></li>
+                            <li class="mob_nav_li1"><p>Outlook</p></li>
+                            <li class="mob_nav_li1"><p>OneDrive</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Teams</p></li>
+                            <li class="mob_nav_li1"><p>OneNote</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Edge</p></li>
+                            <li class="mob_nav_li1"><p>Skype</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1 mob_nav_li2_after" onclick="mob_nav_li3()"><p>PCs & Devices</p>
+                        <ul class="mobi_nav_ul3  mobi_nav_ul3_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Computers</p></li>
+                            <li class="mob_nav_li1"><p>Shop Xbox</p></li>
+                            <li class="mob_nav_li1"><p>Accessories</p></li>
+                            <li class="mob_nav_li1"><p>VR & mixed reality</p></li>
+                            <li class="mob_nav_li1"><p>Certified Refurbished</p></li>
+                            <li class="mob_nav_li1"><p>Trade-in for cash</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1 mob_nav_li3_after" onclick="mob_nav_li4()"><p>Entertainment</p>
+                        <ul class="mobi_nav_ul4  mobi_nav_ul4_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Xbox Game Pass Ultimate</p></li>
+                            <li class="mob_nav_li1"><p>PC Game Pass</p></li>
+                            <li class="mob_nav_li1"><p>Xbox games</p></li>
+                            <li class="mob_nav_li1"><p>PC and Windows games</p></li>
+                            <li class="mob_nav_li1"><p>Movies & TV</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1 mob_nav_li4_after" onclick="mob_nav_li5()"><p>Business</p>
+                        <ul class="mobi_nav_ul5  mobi_nav_ul5_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Microsoft Cloud</p></li>
+                            <li class="mob_nav_li1"><p>Dynamics 365</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft 365 for business</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Power Platform</p></li>
+                            <li class="mob_nav_li1"><p>Windows 365</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Industry</p></li>
+                            <li class="mob_nav_li1"><p>Small Business</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1 mob_nav_li5_after" onclick="mob_nav_li6()"><p>Developer & IT</p>
+                        <ul class="mobi_nav_ul6  mobi_nav_ul6_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Azure</p></li>
+                            <li class="mob_nav_li1"><p>Developer Center</p></li>
+                            <li class="mob_nav_li1"><p>Documentation</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Learn</p></li>
+                            <li class="mob_nav_li1"><p>Microsoft Tech Community</p></li>
+                            <li class="mob_nav_li1"><p>Azure Marketplace</p></li>
+                            <li class="mob_nav_li1"><p>AppSource</p></li>
+                            <li class="mob_nav_li1"><p>Visual Studio</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1 mob_nav_li6_after" onclick="mob_nav_li7()"><p>Other</p>
+                        <ul class="mobi_nav_ul7  mobi_nav_ul7_hi first_mobi_nav_ul2">
+                            <li class="mob_nav_li1"><p>Microsoft Rewards</p></li>
+                            <li class="mob_nav_li1"><p>Free downloads & security</p></li>
+                            <li class="mob_nav_li1"><p>Education</p></li>
+                            <li class="mob_nav_li1"><p>Gift cards</p></li>
+                            <li class="mob_nav_li1"><p>Holiday gifts</p></li>
+                            <li class="mob_nav_li1"><p>Licensing</p></li>
+                            <li class="mob_nav_li1"><p>Unlocked stories</p></li>
+                        </ul>
+                    </li>
+                    <li class="mob_nav_li1"><p>View Sitemap</p></li>
+                </ul>
+            </div>
+        </div>
+        <div id="all_microsoft" class="all_microsoft_hi">
+            <div class="all_micro_nav">
+                <ul class="all_cata">
+                    <li class="software">
+                        <h4>Software</h4>
+                        <ul>
+                            <li><a href="#">Windows Apps</a></li>
+                            <li><a href="#">AI</a></li>
+                            <li><a href="#">Outlook</a></li>
+                            <li><a href="#">OneDrive</a></li>
+                            <li><a href="#">Microsoft Teams</a></li>
+                            <li><a href="#">OneNote</a></li>
+                            <li><a href="#">Microsoft Edge</a></li>
+                            <li><a href="#">Skype</a></li>
+                        </ul>
+                    </li>
+                    <li class="software">
+                        <h4>PCs & Devices</h4>
+                        <ul>
+                            <li><a href="#">Computers</a></li>
+                            <li><a href="#">Shop Xbox</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">VR & mixed reality</a></li>
+                            <li><a href="#">Certified Refurbished</a></li>
+                            <li><a href="#">Trade-in for cash</a></li>
+                        </ul>
+                    </li>
+                    <li class="software">
+                        <h4>Entertainment</h4>
+                        <ul>
+                            <li><a href="#">Xbox Game Pass Ultimate</a></li>
+                            <li><a href="#">PC Game Pass</a></li>
+                            <li><a href="#">Xbox games</a></li>
+                            <li><a href="#">PC and Windows games</a></li>
+                            <li><a href="#">Movies & TV</a></li>
+                        </ul>
+                    </li>
+                    <li class="software">
+                        <h4>Business</h4>
+                        <ul>
+                            <li><a href="#">Microsoft Cloud</a></li>
+                            <li><a href="#">Dynamics 365</a></li>
+                            <li><a href="#">Microsoft 365 for business</a></li>
+                            <li><a href="#">Microsoft Power Platform</a></li>
+                            <li><a href="#">Windows 365</a></li>
+                            <li><a href="#">Microsoft Industry</a></li>
+                            <li><a href="#">Small Business</a></li>
+                        </ul>
+                    </li>
+                    <li class="software">
+                        <h4>Developer & IT</h4>
+                        <ul>
+                            <li><a href="#">Azure</a></li>
+                            <li><a href="#">Developer Center</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Microsoft Learn</a></li>
+                            <li><a href="#">Microsoft Tech Community</a></li>
+                            <li><a href="#">Azure Marketplace</a></li>
+                            <li><a href="#">AppSource</a></li>
+                            <li><a href="#">Visual Studio</a></li>
+                        </ul>
+                    </li>
+                    <li class="software">
+                        <h4>Other</h4>
+                        <ul>
+                            <li><a href="#">Microsoft Rewards</a></li>
+                            <li><a href="#">Free downloads & security</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                            <li><a href="#">Holiday gifts</a></li>
+                            <li><a href="#">Licensing</a></li>
+                            <li><a href="#">Unlocked stories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="site_map">
+                    <h4>View Sitemap</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer_noti offer_noti_sh"><p ><a href="#">Order gifts by 11:00 AM PT on 12/22 to get them by 12/24. Shop Holiday gifts</a></p></div>
+
+    <div class="main_banner">
+        <div class="banner">
+            <div class="banner_image" style="background-image: url(/img/xbox_slide_big.jpg);">
+                <div class="banner_info">
+                    <p class="Countdown_p">Countdown Sale</p>
+                    <h1>Save up to $100 on select Xbox Series X</h1>
+                    <p>Clock's ticking -- score amazing savings on the fastest, most powerful Xbox yet. Countdown Sale deal ends 12/31. </p>
+                    <button><p>Shop Xbox Series X</p></button>
+                </div>
+            </div>
+            <div class="banner_image" style="background-image: url(/img/laptop_slid_big.jpg);">
+                <div class="banner_info">
+                    <p class="Countdown_p">Countdown Sale</p>
+                    <h1>Up to $570 off Surface Laptop 5</h1>
+                    <p>Now’s your chance—check off your list with the perfect balance of style, speed, and serious processing power. Offer ends 12/24</p>
+                    <button><p>Shop Surface Laptop 5</p></button>
+                </div>
+            </div>
+        </div>
+        <div class="banner_slid_btn">
+            <button id="play_push" class=" play_push"><ul><li></li><li></li></ul></button>
+            <button  class="go_prev go_prev_js"><ul><li class="go_prev_1"></li><li class="go_prev_2"></li></ul></button>
+            <button class="image_1" style="outline: none;"><div id="image_1" class="image_1_div" ></div></button>
+            <button class="image_2" style="outline: none;"><div id="image_2" class="image_2_div_ac"></div></button>
+            <button  class="go_next go_next_js"><ul><li class="go_next_1"></li><li class="go_next_2"></li></ul></button>
+        </div>
+    </div>
+
+    <div class="shop_products">
+        <div class="shop_catagory">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 120 120">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1a1a1a;
+                    }
+              
+                    .cls-1, .cls-2 {
+                      stroke-width: 0px;
+                    }
+              
+                    .cls-2 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <g id="MSCOM_Icons" data-name="MSCOM Icons">
+                  <g id="Link-List-Icons-Surface-Devices">
+                    <g id="Bounding_Box" data-name="Bounding Box">
+                      <rect class="cls-2" width="120" height="120"/>
+                    </g>
+                    <g id="Surface_Icon" data-name="Surface Icon">
+                      <g>
+                        <path class="cls-1" d="m105.01,84.51s-.07,0-.1,0l-12.15-.02c-1.1,0-2-.9-2-2,0-1.1.9-2,2-2h0l12.19.02c.61,0,.87-.39.95-.57.08-.18.23-.63-.15-1.07-.05-.06-.1-.12-.14-.18l-12.05-17.59c-.62-.91-.39-2.16.52-2.78.91-.62,2.16-.39,2.78.52l11.99,17.51c1.24,1.5,1.5,3.52.67,5.29-.83,1.78-2.55,2.87-4.51,2.87Z"/>
+                        <path class="cls-1" d="m87.63,90.29H16.89c-1.95,0-3.81-.83-5.12-2.28-1.31-1.45-1.94-3.4-1.74-5.34l4.95-46.79c.37-3.52,3.32-6.17,6.86-6.17h70.68c1.95,0,3.82.83,5.12,2.28,1.31,1.45,1.94,3.39,1.74,5.33l-4.89,46.79c-.37,3.52-3.32,6.18-6.86,6.18ZM21.84,33.71c-1.49,0-2.73,1.11-2.88,2.59l-4.95,46.79c-.09.83.17,1.62.73,2.24.56.62,1.32.96,2.15.96h70.74c1.49,0,2.73-1.12,2.88-2.6l4.89-46.79c.09-.82-.17-1.62-.73-2.23-.56-.62-1.32-.96-2.15-.96H21.84Z"/>
+                        <path class="cls-1" d="m56.79,42.05c-1.1,0-2-.9-2-2s.89-2,1.99-2h.01c1.1,0,2,.9,2,2s-.9,2-2,2Z"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <h3>Shop Surface devices</h3>
+        </div>
+        <div class="shop_catagory">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 120 120">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1a1a1a;
+                    }
+              
+                    .cls-1, .cls-2 {
+                      stroke-width: 0px;
+                    }
+              
+                    .cls-2 {
+                      fill: #fff;
+                    }
+                  </style>
+                </defs>
+                <g id="MSCOM_Icons" data-name="MSCOM Icons">
+                  <g id="Link-List-Icons-Xbox-Games-Consoles">
+                    <g id="Bounding_Box" data-name="Bounding Box">
+                      <rect class="cls-2" width="120" height="120"/>
+                    </g>
+                    <g id="Xbox_Orb" data-name="Xbox Orb">
+                      <path class="cls-1" d="M47.65,40.01c-1.32,1.55-2.81,3.43-4.48,5.65-1.67,2.21-3.37,4.61-5.12,7.21-1.74,2.59-3.45,5.29-5.12,8.09s-3.16,5.57-4.48,8.31c-1.32,2.74-2.38,5.38-3.19,7.91-.81,2.53-1.21,4.81-1.21,6.84,0,1.11.15,2.15.44,3.12l-.04.22c-.12,0-.21-.03-.27-.09-1.49-1.88-2.81-3.9-3.96-6.09-1.14-2.18-2.1-4.44-2.88-6.77-.78-2.33-1.36-4.71-1.76-7.14-.4-2.43-.59-4.85-.59-7.25,0-2.93.29-5.87.88-8.81.58-2.94,1.45-5.8,2.59-8.57,1.14-2.77,2.55-5.4,4.22-7.89,1.67-2.49,3.57-4.75,5.71-6.77.12-.12.34-.2.68-.24.34-.04.55-.07.64-.07.91,0,1.89.22,2.97.66,1.07.44,2.17,1.01,3.32,1.71,1.14.7,2.29,1.49,3.43,2.37,1.14.88,2.23,1.76,3.25,2.66,1.03.9,1.96,1.75,2.81,2.57s1.57,1.51,2.16,2.07l.04.18-.04.13h0ZM60.13,51.17c1.08.82,2.35,1.85,3.8,3.1,1.45,1.25,3,2.65,4.63,4.2,1.64,1.55,3.33,3.22,5.08,5.01,1.74,1.79,3.44,3.63,5.1,5.54,1.66,1.9,3.22,3.82,4.7,5.76,1.48,1.93,2.78,3.82,3.89,5.65,1.11,1.83,1.99,3.59,2.64,5.27.64,1.68.97,3.23.97,4.63,0,.67-.1,1.31-.31,1.91-.21.6-.54,1.15-1.01,1.65-.62.62-1.32,1.21-2.11,1.8-.79.58-1.55,1.13-2.29,1.62-3.75,2.52-7.76,4.43-12.04,5.73-4.28,1.3-8.67,1.96-13.18,1.96s-8.91-.65-13.18-1.96c-4.28-1.3-8.29-3.21-12.04-5.73-.73-.5-1.49-1.04-2.29-1.62-.79-.58-1.49-1.19-2.11-1.8-.47-.5-.81-1.05-1.01-1.65s-.31-1.24-.31-1.91c0-1.4.32-2.95.97-4.63s1.53-3.44,2.64-5.27c1.11-1.83,2.41-3.71,3.89-5.65,1.48-1.93,3.05-3.85,4.7-5.76,1.66-1.9,3.35-3.75,5.1-5.54,1.74-1.79,3.43-3.46,5.08-5.01,1.64-1.55,3.19-2.95,4.63-4.2s2.72-2.28,3.8-3.1l.13-.09.13.09h0ZM36.4,21.85l.09-.22c3.66-2.2,7.42-3.85,11.29-4.96,3.87-1.11,7.94-1.67,12.22-1.67s8.33.55,12.17,1.65c3.84,1.1,7.59,2.74,11.25,4.95l.09.22-.22.04c-.91-.2-1.9-.31-2.99-.31-1.64,0-3.35.2-5.12.59s-3.54.92-5.3,1.56c-1.76.64-3.47,1.37-5.14,2.17-1.67.81-3.22,1.6-4.66,2.39l-.09.04-.09-.04c-1.4-.79-2.94-1.58-4.61-2.37-1.67-.79-3.38-1.51-5.14-2.16-1.76-.64-3.52-1.17-5.3-1.58-1.77-.41-3.46-.62-5.08-.62-.53,0-1.05.02-1.58.07-.53.04-1.05.14-1.58.28l-.22-.04h0ZM90.23,27.65c.14,0,.37.02.68.07.31.04.54.13.68.24,2.14,2.02,4.04,4.28,5.71,6.77,1.67,2.49,3.08,5.12,4.22,7.89,1.14,2.77,2.01,5.62,2.59,8.57s.88,5.88.88,8.81c0,2.4-.2,4.82-.59,7.25-.4,2.43-.98,4.81-1.76,7.14-.78,2.33-1.74,4.59-2.88,6.77-1.14,2.18-2.46,4.21-3.96,6.09-.06.06-.15.09-.27.09l-.05-.22c.29-.97.44-2.01.44-3.12,0-2.02-.4-4.3-1.21-6.84-.81-2.53-1.86-5.17-3.16-7.91-1.3-2.74-2.8-5.52-4.48-8.33-1.68-2.81-3.4-5.52-5.14-8.11-1.74-2.59-3.46-4.99-5.14-7.21-1.69-2.21-3.17-4.09-4.46-5.65l-.05-.13s.05-.05.05-.07c0-.01.01-.04.04-.07.56-.56,1.27-1.25,2.13-2.07s1.81-1.68,2.83-2.57c1.03-.9,2.1-1.78,3.23-2.66,1.13-.88,2.25-1.67,3.38-2.37,1.13-.7,2.23-1.27,3.29-1.71,1.07-.44,2.06-.66,2.97-.66Z"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            <h3>Shop Xbox games and consoles</h3>
+        </div>
+        <div class="shop_catagory">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 120 120">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1a1a1a;
+                    }
+              
+                    .cls-1, .cls-2 {
+                      stroke-width: 0px;
+                    }
+              
+                    .cls-2 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <g id="MSCOM_Icons" data-name="MSCOM Icons">
+                  <g id="Link-List-Icons-Accessories">
+                    <g id="Bounding_Box" data-name="Bounding Box">
+                      <rect class="cls-2" width="120" height="120"/>
+                    </g>
+                    <g id="Accessories_Icon" data-name="Accessories Icon">
+                      <path class="cls-1" d="m92.54,71.98h-.69c-9.63,0-17.47-7.84-17.47-17.47v-21.89c0-.06,0-.13,0-.2,0-6.56,5.33-11.89,11.89-11.89h11.86c6.56,0,11.89,5.33,11.89,11.89v22.09c0,9.63-7.84,17.47-17.47,17.47Zm-14.17-39.74c0,.06,0,.12,0,.18v22.09c0,7.43,6.04,13.47,13.47,13.47h.69c7.43,0,13.47-6.04,13.47-13.47v-22.09c0-4.35-3.54-7.89-7.89-7.89h-11.86c-4.29,0-7.79,3.44-7.89,7.71Z"/>
+                      <path class="cls-1" d="m92.17,40.19c-1.1,0-2-.9-2-2v-15.66c0-1.1.9-2,2-2s2,.9,2,2v15.66c0,1.1-.9,2-2,2Z"/>
+                      <path class="cls-1" d="m80.97,99.48H18.73c-4.82,0-8.74-3.92-8.74-8.74v-37.74c0-4.82,3.92-8.74,8.74-8.74h51.06c1.1,0,2,.9,2,2s-.9,2-2,2H18.73c-2.61,0-4.74,2.13-4.74,4.74v37.74c0,2.61,2.13,4.74,4.74,4.74h62.24c2.61,0,4.74-2.13,4.74-4.74v-14.74c0-1.1.9-2,2-2s2,.9,2,2v14.74c0,4.82-3.92,8.74-8.74,8.74Z"/>
+                      <path class="cls-1" d="m71.38,87.23H28.04c-1.1,0-2-.9-2-2s.9-2,2-2h43.35c1.1,0,2,.9,2,2s-.9,2-2,2Z"/>
+                      <circle class="cls-1" cx="68.26" cy="71.86" r="2"/>
+                      <circle class="cls-1" cx="56.05" cy="71.86" r="2"/>
+                      <circle class="cls-1" cx="43.84" cy="71.86" r="2"/>
+                      <circle class="cls-1" cx="31.63" cy="71.86" r="2"/>
+                      <circle class="cls-1" cx="62.15" cy="59.75" r="2"/>
+                      <circle class="cls-1" cx="49.94" cy="59.75" r="2"/>
+                      <circle class="cls-1" cx="37.73" cy="59.75" r="2"/>
+                      <circle class="cls-1" cx="25.52" cy="59.75" r="2"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            <h3>Shop for accessories</h3>
+        </div>
+        <div class="shop_catagory">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 120 120">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1a1a1a;
+                    }
+              
+                    .cls-1, .cls-2 {
+                      stroke-width: 0px;
+                    }
+              
+                    .cls-2 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <g id="MSCOM_Icons" data-name="MSCOM Icons">
+                  <g id="Link-List-Icons-Business">
+                    <g id="Bounding_Box" data-name="Bounding Box">
+                      <rect class="cls-2" width="120" height="120"/>
+                    </g>
+                    <g>
+                      <path class="cls-1" d="m94.31,102.24H25.7c-8.66,0-15.7-7.04-15.7-15.7v-35.38c0-8.66,7.04-15.7,15.7-15.7h25.04c1.1,0,2,.9,2,2s-.9,2-2,2h-25.04c-6.45,0-11.7,5.25-11.7,11.7v35.38c0,6.45,5.25,11.7,11.7,11.7h68.61c6.45,0,11.7-5.25,11.7-11.7v-35.38c0-6.45-5.25-11.7-11.7-11.7h-25.04c-1.1,0-2-.9-2-2s.9-2,2-2h25.04c8.66,0,15.7,7.04,15.7,15.7v35.38c0,8.66-7.04,15.7-15.7,15.7Z"/>
+                      <path class="cls-1" d="m78.83,39.47c-1.1,0-2-.9-2-2v-14.2c0-.83-.68-1.51-1.51-1.51h-30.64c-.83,0-1.51.68-1.51,1.51v14.19c0,1.1-.9,2-2,2s-2-.9-2-2v-14.19c0-3.04,2.47-5.51,5.51-5.51h30.64c3.04,0,5.51,2.47,5.51,5.51v14.2c0,1.1-.9,2-2,2Z"/>
+                      <path class="cls-1" d="m65.26,46.8h-10.53c-3.31,0-6-2.69-6-6v-5.37c0-1.1.9-2,2-2h18.53c1.1,0,2,.9,2,2v5.37c0,3.31-2.69,6-6,6Zm-12.53-9.37v3.37c0,1.1.9,2,2,2h10.53c1.1,0,2-.9,2-2v-3.37h-14.53Z"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            <h3>Shop for your business</h3>
+        </div>
+        <div class="shop_catagory">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 120 120">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1a1a1a;
+                    }
+              
+                    .cls-1, .cls-2 {
+                      stroke-width: 0px;
+                    }
+              
+                    .cls-2 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <g id="MSCOM_Icons" data-name="MSCOM Icons">
+                  <g id="Link-List-Icons-Microsoft-365">
+                    <g id="Bounding_Box" data-name="Bounding Box">
+                      <rect class="cls-2" width="120" height="120"/>
+                    </g>
+                    <path class="cls-1" d="m57.23,15v42.23H15V15h42.23Zm0,47.77v42.23H15v-42.23h42.23ZM105,15v42.23h-42.23V15h42.23Zm0,47.77v42.23h-42.23v-42.23h42.23Z"/>
+                  </g>
+                </g>
+              </svg>
+            <h3>Choose your Microsoft 365</h3>
+        </div>
+    </div>
+
+    <div class="countdown_sales">
+        <div class="countdown_sale">
+            <img src="/img/Content-Card-Surface-Pro-9-Platinum-FY24HOL.avif" alt="">
+            <h4>Countdown Sale</h4>
+            <h2>Save up to $500 on Surface Pro 9</h2>
+            <p>Don’t delay—save now on the tablet flexibility you want and the laptop performance you need, all in one ultra-portable device. Offer ends 12/24.</p>
+            <a href="#"><p class="countdown_sale_p1">Shop Surface Pro 9</p></a>
+        </div>
+        <div class="countdown_sale">
+            <img src="/img/Content-Card-Surface-Laptop-Studio-2-FY24HOL.jpg" alt="">
+            <h4>Countdown Sale</h4>
+            <h2>Save up to $400 on Surface Laptop Studio 2</h2>
+            <p>Give the power to make it all possible with a cutting-edge screen and twice the computing power. Offer ends 12/24.</p>
+            <a href="#"><p class="countdown_sale_p2">Shop Surface Laptop Studio 2
+            </p></a>
+        </div>
+        <div class="countdown_sale">
+            <img src="/img/Content-Card-Xbox-Series-S-angle-FY24HOL.avif" alt="">
+            <h4>Countdown Sale</h4>
+            <h2>Save up to $60 on Xbox Series S</h2>
+            <p>Save big, right now on next-gen speed and performance. Select consoles on sale through 12/25. </p>
+            <a href="#"><p class="countdown_sale_p3">Shop Xbox Series S</p></a>
+        </div>
+        <div class="countdown_sale">
+            <img src="/img/Content-Card-Gift-Cards-Microsoft-Xbox-FY24HOL.avif" alt="">
+            <h4>Countdown Sale</h4>
+            <h2>Microsoft and Xbox Gift Cards</h2>
+            <p>From cutting-edge tech to the latest games, give the gift of endless possibility. </p>
+            <a href="#"><p class="countdown_sale_p4">Shop gift cards</p></a>
+        </div>
+    </div>
+
+    <div class="contolars">
+        <div class="all_contolars">
+            <div class="contolars_img" style="background-image: url(/img/Highlight-Xbox-Controller-Grn-Prpl-Red-FY24HOLCD_VP5-1596x600.jpg);">
+                <div class="contolor_info">
+                    <p class="contolars_p">Countdown Sale</p>
+                    <h1>Up to $44 off Xbox Wireless Controller</h1>
+                    <p>Now's your chance—level up your play with a deal on select controllers designed for comfort, precision, and seamless sharing. Offer ends 12/25.</p>
+                    <button><p>Shop Xbox Wireless Controller</p></button>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <div class="for_business">
+        <h2>For business</h2>
+    </div>
+    <div class="business_sales">
+        <div class="business_sale">
+            <img src="/img/Content-Card-Surface-Pro-9-for-Business-Angled-1.jpg" alt="">
+            <h2>Surface Pro 9 for Business</h2>
+            <p>Get next-level security with Surface Pro 9 for Business and Windows 11 Pro to help ensure your information is protected.</p>
+            <a href="#"><p class="countdown_sale_p11">Surface Pro 9 for Business</p></a>
+        </div>
+        <div class="business_sale">
+            <img src="/img/Content-Card-Microsoft-365-Commercial-Photographers.avif" alt="">
+            <h2>15% off Microsoft 365 Business Standard</h2>
+            <p>Enjoy limited-time savings this holiday season on Microsoft 365 and build your business with ease, efficiency, and security.</p>
+            <a href="#"><p class="countdown_sale_p22">Shop Microsoft 365 Business Standard
+            </p></a>
+        </div>
+        <div class="business_sale">
+            <img src="/img/Content-Card-Windows-11-Business.jpg" alt="">
+            <h2>Windows 11 for business</h2>
+            <p>Online meetings, chat, and shared cloud storage—all in one place </p>
+            <a href="#"><p class="countdown_sale_p33">Sign up for free</p></a>
+        </div>
+        <div class="business_sale">
+            <img src="/img/gldn-CP-Microsoft-Teams-Commercial.webp" alt="">
+            <h2>Get Microsoft Teams for free</h2>
+            <p>From cutting-edge tech to the latest games, give the gift of endless possibility. </p>
+            <a href="#"><p class="countdown_sale_p44">Shop gift cards</p></a>
+        </div>
+    </div>
+
+    <div class="last_slider">
+      <div class="image_slider_last">
+        <div class="last_image" style="background-image: url(/img/Highlight-Microsoft-Holiday-AI_VP5-1596x600.jpg);">
+          <div class="last_image_info" >
+            <h2>Make your holiday a masterpiece</h2>
+            <p>No matter how you celebrate, AI in Microsoft Designer can help you turn your holiday stories into unique art. Explore the creative process and try it yourself.</p>
+            <button><p>Learn about the project</p></button>
+          </div>
+        </div>
+        <div class="last_image " style="background-image: url(/img/Highlight-AI-88Rising-Spence-Lee_VP5-1596x600.avif);">
+          <div class="last_image_info2 " >
+            <h2>AI empowers creativity and connection</h2>
+            <p>88rising—an Asian media collective featuring musicians, visual artists, and video producers—is using Microsoft AI and other tech to connect with fans.</p>
+            <button><p>Meet 88rising’s artists</p></button>
+          </div>
+        </div>
+      </div>
+      <div class="banner_slid_btn">
+          <button id="play_push2" class=" play_push"><ul><li></li><li></li></ul></button>
+          <button  class="go_prev go_prev_js2"><ul><li class="go_prev_1"></li><li class="go_prev_2"></li></ul></button>
+          <button class="image_1" style="outline: none;"><div id="image_12" class="image_1_div" ></div></button>
+          <button class="image_2" style="outline: none;"><div id="image_22" class="image_2_div_ac"></div></button>
+          <button  class="go_next go_next_js2"><ul><li class="go_next_1"></li><li class="go_next_2"></li></ul></button>
+      </div>
+    </div>
+    <!-- <div class="social_links">
+      <div class="social_link">
+        <p>Follow Microsoft</p>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Linkedin</li>
+        </ul>
+      </div>
+    </div> -->
+    <footer>
+      <div class="main_main">
+        <div class="footer_list">
+          <ul class="footer_ul">What's new
+            <li class="footer_li">Surface Laptop Studio 2</li>
+            <li class="footer_li">Surface Laptop Go 3</li>
+            <li class="footer_li">Surface Pro 9</li>
+            <li class="footer_li">Surface Laptop 5</li>
+            <li class="footer_li">Surface Studio 2+</li>
+            <li class="footer_li">Copilot in Windows</li>
+            <li class="footer_li">Microsoft 365</li>
+            <li class="footer_li">Windows 11</li>
+          </ul>
+          <ul class="footer_ul">Microsoft Store
+            <li class="footer_li">Account profile</li>
+            <li class="footer_li">Download Center</li>
+            <li class="footer_li">Microsoft Store support</li>
+            <li class="footer_li">Returns</li>
+            <li class="footer_li">Order tracking</li>
+            <li class="footer_li">Certified Refurbished</li>
+            <li class="footer_li">Microsoft Store Promise</li>
+            <li class="footer_li">Flexible Payments</li>
+          </ul>
+          <ul class="footer_ul">Education
+            <li class="footer_li">Microsoft in education</li>
+            <li class="footer_li">Devices for education</li>
+            <li class="footer_li">Microsoft Teams for Education</li>
+            <li class="footer_li">Microsoft 365 Education</li>
+            <li class="footer_li">How to buy for your school</li>
+            <li class="footer_li">Educator training and development</li>
+            <li class="footer_li">Deals for students and parents</li>
+            <li class="footer_li">Azure for students</li>
+          </ul>
+          <ul class="footer_ul">Business
+            <li class="footer_li">Microsoft Cloud</li>
+            <li class="footer_li">Microsoft Security</li>
+            <li class="footer_li">Dynamics 365</li>
+            <li class="footer_li">Microsoft Power Platform</li>
+            <li class="footer_li">Microsoft Teams</li>
+            <li class="footer_li">Copilot in Windows</li>
+            <li class="footer_li">Microsoft Industry</li>
+            <li class="footer_li">Small Business</li>
+          </ul>
+          <ul class="footer_ul">Developer & IT
+            <li class="footer_li">Azure</li>
+            <li class="footer_li">Developer Center</li>
+            <li class="footer_li">Documentation</li>
+            <li class="footer_li">Microsoft Learn</li>
+            <li class="footer_li">Microsoft Tech Community</li>
+            <li class="footer_li">Azure Marketplace</li>
+            <li class="footer_li">AppSource</li>
+            <li class="footer_li">Visual Studio</li>
+          </ul>
+          <ul class="footer_ul">Company
+            <li class="footer_li">Careers</li>
+            <li class="footer_li">About Microsoft</li>
+            <li class="footer_li">Company news</li>
+            <li class="footer_li">Privacy at Microsoft</li>
+            <li class="footer_li">Investors</li>
+            <li class="footer_li">Diversity and inclusion</li>
+            <li class="footer_li">Accessibility</li>
+            <li class="footer_li">Sustainability</li>
+          </ul>
+        </div>
+        <div class="last_footer">
+          <div class="left_footer">
+            <ul>
+              <li>English (United States)</li>
+              <li>Your Privacy Choices</li>
+            </ul>
+          </div>
+          <div class="right_footer">
+            <ul>
+              <li>Sitemap</li>
+              <li>Contact Microsoft</li>
+              <li>Privacy</li>
+              <li>Terms of use</li>
+              <li>Trademarks</li>
+              <li>Safety & eco</li>
+              <li>Recycling</li>
+              <li>About our ads</li>
+              <li>&copy; Microsoft 2023</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<!-- <div class="section_of"></div> -->
+    <script src="main.js"></script>
+</body>
+</html
