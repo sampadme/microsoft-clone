@@ -14,7 +14,7 @@
 
 ### Responsive on small mobile screens
 
-![image]([https://user-images.githubusercontent.com/51326421/103206168-cc9b0700-492d-11eb-9d6c-659e32ea8185.png](https://github.com/sampadme/microsoft-website-clone/blob/main/img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_49_30.png)https://github.com/sampadme/microsoft-website-clone/blob/main/img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_49_30.png)
+![image](img/screencapture-sampadme-github-io-microsoft-clone-2023-12-24-01_49_30.png)
 
 
 
