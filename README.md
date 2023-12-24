@@ -1,5 +1,5 @@
-<h1>Microsoft Websote Master Clone</h1>
-<h2>Live View(https://sampadme.github.io/microsoft-website-clone/)</h2>
+<h1>Microsoft Website Clone</h1>
+<h2>Live View</h2>(https://sampadme.github.io/microsoft-website-clone/)
 
 ## Technologies
 * `HTML`
