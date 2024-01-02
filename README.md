@@ -1,5 +1,5 @@
 <h1>Microsoft Website Clone</h1>
-<h2>Live View</h2>(https://sampadme.github.io/microsoft-website-clone/)
+## [Live View](https://sampadme.github.io/microsoft-website-clone/)
 
 ## Technologies
 * `HTML`
