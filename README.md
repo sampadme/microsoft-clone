@@ -1,7 +1,7 @@
 <h1>Microsoft Website Clone</h1>  
-[Live](https://sampadme.github.io/microsoft-website-clone/index.html).
 
-[Duck Duck Go](https://duckduckgo.com).
+
+## [Live](https://sampadme.github.io/microsoft-website-clone/index.html).
 
 ## Technologies
 * `HTML`
