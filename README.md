@@ -1,5 +1,5 @@
-<h1>Microsoft Website Clone</h1>
-[Live View](https://sampadme.github.io/microsoft-website-clone).
+<h1>Microsoft Website Clone</h1>  
+[Live View](https://sampadme.github.io/microsoft-website-clone/index.html).
 
 [Duck Duck Go](https://duckduckgo.com).
 
