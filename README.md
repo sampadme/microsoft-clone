@@ -1,4 +1,4 @@
-<h1>Microsoft Website Clone</h1>  
+# Microsoft Website Clone
 
 
 ## [Live](https://sampadme.github.io/microsoft-website-clone/index.html).
